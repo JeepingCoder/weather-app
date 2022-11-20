@@ -1,54 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link
- 
-   rel="stylesheet" href="./style.css"/>
-   <title>Weather Dashboard</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather Dashboard</title>
 </head>
+
 <body>
-  
-  <div class ="header"> </header>
-       <div class = "inner-header">
-          <h1> Your<span> Weather</span> Forecast</h1>
- 
-       </div>
-   <section class ='side'>
-       <div class ="sidebar">
-       <h2>Search For A City:</h2>
-       <form>
-        <input type="text" placeholder="Search for a city" autofocus>
-        <button type="submit">SUBMIT</button>
-        <span class="msg"></span>
-        </form>
- 
-   </div>
-   <div class="stage">
-    
-      <div class="box">
-        <span></span>
-      </div>
+
+    <div class="header">
+        </header>
+        <div class="inner-header">
+            <h1> Your<span> Weather</span> Forecast</h1>
+
+        </div>
+        
+            <div class="sidebar">
+                <h2>Search For A City:</h2>
+                <section class='side'>
+                <form>
+                    <input type="text" placeholder="Search for a city" autofocus>
+                    <button type="submit">SUBMIT</button>
+                    <span class="msg"></span>
+                </form>
+
+            </div>
+            <div class="stage">
+
+                <div class="box">
+                    <span></span>
+                </div>
+            </div>
     </div>
-  </div>
-</section>
- 
-   <div class ="container">
-   <h3>5-Day Forecast</h3>
- 
- 
-   </div>
- 
-  
-<card></card>
-<card></card>
-<card></card>
-<card></card>
-<card></card>
- 
- 
-<script api.openweathermap.org/data/2.5/forecast?lat=35.2271&lon=80.8431&appid=be3a1c546ba346651be769db457cb1b7></script>
+    </section>
+
+    <div class="container">
+        <h3>5-Day Forecast</h3>
+
+
+    </div>
+
+
+    <card></card>
+    <card></card>
+    <card></card>
+    <card></card>
+    <card></card>
+
+
+    <script api.openweathermap.org/data/2.5/forecast?lat=35.2271&lon=80.8431&appid=be3a1c546ba346651be769db457cb1b7></script>
+    <script api.openweathermap.org/data/2.5/forecast?id={city ID}&appid=be3a1c546ba346651be769db457cb1b7></script>
 </body>
+
 </html>
