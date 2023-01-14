@@ -6,53 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
-    <title>Weather Dashboard</title>
+    <title>City Weather</title>
 </head>
 
 <body>
 
     <div class="header">
-        </header>
+        
         <div class="inner-header">
             <h1> Your<span> Weather</span> Forecast</h1>
 
         </div>
-        
-            <div class="sidebar">
+    </div>
+     
+   
+     
+     <div class="sidebar">
                 <h2>Search For A City:</h2>
-                <section class='side'>
-                <form>
-                    <input type="text" placeholder="Search for a city" autofocus>
-                    <button type="submit">SUBMIT</button>
+                
+                <form class="citySearch">
+                    <div class ="input"></div>
+                    <input type="text" class ="inputValue" id="Search for a city" autofocus>
+                    <button class="submit">SUBMIT</button>
                     <span class="msg"></span>
                 </form>
-
-            </div>
-            <div class="stage">
-
-                <div class="box">
-                    <span></span>
-                </div>
-            </div>
     </div>
-    </section>
-
-    <div class="container">
-        <h3>5-Day Forecast</h3>
-
-
+            
+        
+        <div class="forecastContainer">
+                <h3>Today's Weather</h3>
+         </div> 
+           <div class="currentContainer">
+            </div>   
+    
+    <div class = "card">
+    <div class = "weather">
+        <h3 class = "city">Weather in Charlotte</h3>
+        <div class = "temp">51°F</div>
+        <img src ="" alt="" class ="icon"/>
+        <div class = "description">Sunny</div>
+        <div class = "Humidity"> humidity  90%</div>
     </div>
+    </div>
+           
+        
+        
+    
+    
+  
+        
+    
+    
+    
+
+ 
 
 
-    <card></card>
-    <card></card>
-    <card></card>
-    <card></card>
-    <card></card>
 
-
-    <script api.openweathermap.org/data/2.5/forecast?lat=35.2271&lon=80.8431&appid=be3a1c546ba346651be769db457cb1b7></script>
-    <script api.openweathermap.org/data/2.5/forecast?id={city ID}&appid=be3a1c546ba346651be769db457cb1b7></script>
 </body>
-
+<script src="./script.js"></script>
 </html>
